@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from typing import Any, AsyncIterator, Dict, List, Optional, Union
 
 import httpx
-from mistralai import Mistral
+from mistralai.client import Mistral
 
 from config.constants import FALLBACK_MODELS
 from config.settings import settings

@@ -5,7 +5,7 @@ import base64
 from typing import List, Dict, Any, Optional
 from PIL import Image
 import io
-from mistralai import Mistral
+from mistralai.client import Mistral
 from config.settings import settings
 from utils.logging_config import get_logger
 
