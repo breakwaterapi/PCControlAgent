@@ -3,7 +3,7 @@ Embeddings API for RAG and semantic search
 """
 import numpy as np
 from typing import List, Dict, Any, Optional
-from mistralai import Mistral
+from mistralai.client import Mistral
 from config.settings import settings
 from utils.logging_config import get_logger
 

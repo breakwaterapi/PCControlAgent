@@ -1,5 +1,5 @@
 """Enhanced Mistral AI client with full feature support"""
-from mistralai import Mistral
+from mistralai.client import Mistral
 from typing import List, Dict, Any, Optional, AsyncIterator
 
 class EnhancedMistralClient:
